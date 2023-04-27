@@ -6,6 +6,7 @@ import org.junit.Test;
 import static org.mockito.Mockito.*;
 
 public class RapperControllerTest {
+    // given
     private RapperRepository rapperRepository = mock(RapperRepository.class);
     private RapperController rapperController = new RapperController(rapperRepository);
 
